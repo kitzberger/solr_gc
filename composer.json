@@ -1,0 +1,16 @@
+{
+	"name": "kitzberger/solr-gc",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 Solr Garbage Collector",
+	"homepage": "https://github.com/kitzberger/solr_gc",
+	"license": ["GPL-2.0+"],
+	"keywords": ["TYPO3 CMS"],
+	"require": {
+		"typo3/cms": ">=6.2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kitzberger\\SolrGc\\": "Classes/"
+		}
+	}
+}
